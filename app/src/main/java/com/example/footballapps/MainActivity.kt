@@ -1,5 +1,6 @@
 package com.example.footballapps
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -28,5 +29,16 @@ class MainActivity : AppCompatActivity() {
 
         val listClubAdapter = ListClubAdapter(list)
         rvClub.adapter = listClubAdapter
+
+        listClubAdapter.setOnItemClickCallback(object : ListClubAdapter.OnItemClickCallback{
+            override fun onItemClicked(data: Club) {
+                val intent = Intent(this@MainActivity, DetailActivity::class.java)
+                intent.putExtra(DetailActivity.EXTRA_NAME, data.name)
+                intent.putExtra(DetailActivity.EXTRA_DETAIL, data.detail)
+                intent.putExtra(DetailActivity.EXTRA_PHOTO, data.photo)
+                startActivity(intent)
+            }
+
+        })
     }
 }
