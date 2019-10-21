@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Football Apps</string>
+    <string name="club_name">Nama Club</string>
+    <string name="detail">Detail</string>
+
+    <array name="logo_club">
+        <item>@drawable/img_acm</item>
+        <item>@drawable/img_arsenal</item>
+        <item>@drawable/img_barca</item>
+        <item>@drawable/img_bayern</item>
+        <item>@drawable/img_chelsea</item>
+        <item>@drawable/img_city</item>
+        <item>@drawable/img_inter</item>
+        <item>@drawable/img_madrid</item>
+        <item>@drawable/img_mu</item>
+        <item>@drawable/img_psg</item>
+    </array>
+    <string-array name="judul_club">
+        <item>A.C.Milan</item>
+        <item>Arsenal</item>
+        <item>Barcelona B</item>
+        <item>Bayern Munchen</item>
+        <item>Chelsea F.C.</item>
+        <item>Manchester City</item>
+        <item>Inter Milan</item>
+        <item>Realmadrid</item>
+        <item>Manchester United</item>
+        <item>Paris Saint-Germain</item>
+    </string-array>
+
+    <string-array name="deskripsi_club">
+        <item>Associazione Calcio Milan (Italian pronunciation: ), commonly referred to as A.C. Milan or simply Milan, is a professional football club in Milan, Italy, founded in 1899.</item>
+        <item>Arsenal Football Club is a professional football club based in Holloway, London which currently plays in the Premier League, the highest level of English football.</item>
+        <item>Futbol Club Barcelona B is a Spanish football team based in Barcelona, in the autonomous community of Catalonia. Founded in 1970 as FC Barcelona Atlètic, it is the reserve team of FC Barcelona, and currently plays in Segunda División, holding home matches at Mini Estadi.</item>
+        <item>FC Bayern was founded in 1900 by eleven football players led by Franz John. Although Bayern won its first national championship in 1932, the club was not selected for the Bundesliga at its inception in 1963.</item>
+        <item>Chelsea Football Club are a professional football club based in Fulham, London, who play in the Premier League, the highest level of English football.</item>
+        <item>Manchester City Football Club is a football club in Manchester, England. Founded in 1880 as St. Marks (West Gorton), it became Ardwick Association Football Club in 1887 and Manchester City in 1894.</item>
+        <item>F.C. Internazionale Milano, commonly referred to as Internazionale or simply Inter, and colloquially known as Inter Milan outside of Italy, is a professional Italian football club based in Milan, Lombardy.</item>
+        <item>Real Madrid Club de Futbol (Royal Madrid Football Club), commonly known as Real Madrid, or simply as Real, is a professional football club based in Madrid, Spain.</item>
+        <item>Manchester United Football Club is an English professional football club, based in Old Trafford, Greater Manchester that plays in the Premier League. Founded as Newton Heath LYR Football Club in 1878, the club changed its name to Manchester United in 1902 and moved to Old Trafford in 1910. </item>
+        <item>Paris Saint-Germain Football Club, also known simply as Paris Saint-Germain (French pronunciation) and familiarly as Paris SG or PSG , is a professional association football club based in Paris, France.</item>
+    </string-array>
+</resources>
